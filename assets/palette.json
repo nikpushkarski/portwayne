@@ -1,0 +1,16 @@
+{
+  "ink": "#293541",
+  "cream": "#FAF2DF",
+  "wall": "#EEE5D4",
+  "muted": "#E8DFCE",
+  "support": "#50A586",
+  "danger": "#EE977D",
+  "players": {
+    "purple": "#B5A0ED",
+    "mint": "#8DCBB5",
+    "coral": "#EE977D",
+    "yellow": "#F4BD48",
+    "blue": "#94B7F1",
+    "pink": "#F1AAD0"
+  }
+}

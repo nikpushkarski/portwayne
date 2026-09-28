@@ -1,0 +1,33 @@
+{
+  "nine_slice_margins_px": {
+    "panel_*": [
+      18,
+      18,
+      18,
+      18
+    ],
+    "button_*": [
+      18,
+      18,
+      18,
+      18
+    ],
+    "keycap": [
+      14,
+      14,
+      14,
+      14
+    ]
+  },
+  "reference_resolution": [
+    1200,
+    760
+  ],
+  "minimum_body_text_px": 18,
+  "font": "Engine default initially; bundle a licensed font before release.",
+  "motion": {
+    "dust_fps": 12,
+    "impact_fps": 16,
+    "reduce_motion": "Disable shake, confetti, and large collapse camera motion."
+  }
+}

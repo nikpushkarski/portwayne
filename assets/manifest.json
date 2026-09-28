@@ -1,0 +1,1371 @@
+{
+  "title": "Forklift Certified",
+  "version": 1,
+  "assets": [
+    {
+      "path": "sprites/crates/crate_wood.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_purple.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_mint.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_coral.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_yellow.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_blue.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_pink.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Intact crate; collider rect (4,4,200,66)."
+    },
+    {
+      "path": "sprites/crates/crate_crack_overlay.svg",
+      "type": "svg",
+      "width": 208,
+      "height": 74,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Optional crack overlay; align with intact crate."
+    },
+    {
+      "path": "sprites/debris/wood_chunk_1.svg",
+      "type": "svg",
+      "width": 78,
+      "height": 46,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic collapse debris; not gameplay physics."
+    },
+    {
+      "path": "sprites/debris/wood_chunk_2.svg",
+      "type": "svg",
+      "width": 78,
+      "height": 46,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic collapse debris; not gameplay physics."
+    },
+    {
+      "path": "sprites/debris/wood_chunk_3.svg",
+      "type": "svg",
+      "width": 78,
+      "height": 46,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic collapse debris; not gameplay physics."
+    },
+    {
+      "path": "sprites/props/pallet.svg",
+      "type": "svg",
+      "width": 320,
+      "height": 48,
+      "pivot_normalized": [
+        0.5,
+        0.08333333333333333
+      ],
+      "purpose": "Stack base; top surface y=4."
+    },
+    {
+      "path": "sprites/forklift/body.svg",
+      "type": "svg",
+      "width": 176,
+      "height": 144,
+      "pivot_normalized": [
+        0.5,
+        0.8611111111111112
+      ],
+      "purpose": "Forklift body facing right; wheel centers (32,124),(96,124); driver center (61,53)."
+    },
+    {
+      "path": "sprites/forklift/wheel.svg",
+      "type": "svg",
+      "width": 40,
+      "height": 40,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Separate rotating wheel."
+    },
+    {
+      "path": "sprites/players/purple_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/purple_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/purple_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/mint_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/mint_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/mint_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/coral_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/coral_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/coral_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/yellow_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/yellow_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/yellow_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/blue_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/blue_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/blue_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/pink_neutral.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/pink_panic.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "sprites/players/pink_smug.svg",
+      "type": "svg",
+      "width": 56,
+      "height": 56,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Player avatar / forklift driver head; identity must also use a name or symbol."
+    },
+    {
+      "path": "environment/wall_tile.svg",
+      "type": "svg",
+      "width": 100,
+      "height": 80,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Seamless warehouse wall tile; repeat both axes."
+    },
+    {
+      "path": "environment/floor_tile.svg",
+      "type": "svg",
+      "width": 100,
+      "height": 80,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Seamless concrete tile."
+    },
+    {
+      "path": "environment/hazard_tile.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 24,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Repeat horizontally; clip to strip bounds."
+    },
+    {
+      "path": "environment/warehouse_backdrop.svg",
+      "type": "svg",
+      "width": 1200,
+      "height": 600,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Optional low-contrast full-scene background; decorative only."
+    },
+    {
+      "path": "sprites/props/lamp.svg",
+      "type": "svg",
+      "width": 160,
+      "height": 100,
+      "pivot_normalized": [
+        0.5,
+        0
+      ],
+      "purpose": "Hanging warehouse light."
+    },
+    {
+      "path": "sprites/props/cone.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 80,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Decorative safety cone."
+    },
+    {
+      "path": "sprites/props/warning_sign.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 90,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free caution sign."
+    },
+    {
+      "path": "ui/panel_cream.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice panel; 18px margins; no baked text."
+    },
+    {
+      "path": "ui/panel_dark.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice panel; 18px margins; no baked text."
+    },
+    {
+      "path": "ui/panel_muted.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice panel; 18px margins; no baked text."
+    },
+    {
+      "path": "ui/panel_purple.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice panel; 18px margins; no baked text."
+    },
+    {
+      "path": "ui/button_normal.svg",
+      "type": "svg",
+      "width": 192,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice button; 18px margins. Add runtime label."
+    },
+    {
+      "path": "ui/button_hover.svg",
+      "type": "svg",
+      "width": 192,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice button; 18px margins. Add runtime label."
+    },
+    {
+      "path": "ui/button_pressed.svg",
+      "type": "svg",
+      "width": 192,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice button; 18px margins. Add runtime label."
+    },
+    {
+      "path": "ui/button_disabled.svg",
+      "type": "svg",
+      "width": 192,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice button; 18px margins. Add runtime label."
+    },
+    {
+      "path": "ui/button_focus.svg",
+      "type": "svg",
+      "width": 192,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice button; 18px margins. Add runtime label."
+    },
+    {
+      "path": "ui/keycap.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Nine-slice input keycap; 14px margins; runtime binding label."
+    },
+    {
+      "path": "ui/turn_pointer.svg",
+      "type": "svg",
+      "width": 32,
+      "height": 32,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Current-player pointer."
+    },
+    {
+      "path": "ui/support_segment.svg",
+      "type": "svg",
+      "width": 32,
+      "height": 12,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Stretch over the valid landing interval; pair with outline for accessibility."
+    },
+    {
+      "path": "ui/drop_guide_tile.svg",
+      "type": "svg",
+      "width": 8,
+      "height": 24,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Repeat vertically at crate edges during aiming."
+    },
+    {
+      "path": "ui/sweep_rail_tile.svg",
+      "type": "svg",
+      "width": 32,
+      "height": 8,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Repeat horizontally behind sweeping crate."
+    },
+    {
+      "path": "ui/score_pip.svg",
+      "type": "svg",
+      "width": 20,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Collapse penalty indicator; accompany with numeric score."
+    },
+    {
+      "path": "ui/icons/drop_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/drop_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/arrow_right_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/arrow_right_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/arrow_left_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/arrow_left_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/check_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/check_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/close_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/close_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/pause_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/pause_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/play_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/play_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/retry_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/retry_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/home_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/home_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/sound_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/sound_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/muted_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/muted_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/network_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/network_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/disconnected_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/disconnected_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/copy_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/copy_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/lock_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/lock_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/clock_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/clock_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/trophy_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/trophy_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/warning_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/warning_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/settings_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/settings_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/person_dark.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "ui/icons/person_light.svg",
+      "type": "svg",
+      "width": 64,
+      "height": 64,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Text-free UI icon; visible bounds inside 64px canvas."
+    },
+    {
+      "path": "fx/dust/dust_00.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/dust/dust_01.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/dust/dust_02.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/dust/dust_03.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/dust/dust_04.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/dust/dust_05.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 128,
+      "pivot_normalized": [
+        0.5,
+        0.625
+      ],
+      "purpose": "Dust burst frame; 12fps, nonlooping, hide on finish."
+    },
+    {
+      "path": "fx/impact/impact_00.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Impact frame; 16fps, nonlooping; hide on finish."
+    },
+    {
+      "path": "fx/impact/impact_01.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Impact frame; 16fps, nonlooping; hide on finish."
+    },
+    {
+      "path": "fx/impact/impact_02.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Impact frame; 16fps, nonlooping; hide on finish."
+    },
+    {
+      "path": "fx/impact/impact_03.svg",
+      "type": "svg",
+      "width": 96,
+      "height": 96,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Impact frame; 16fps, nonlooping; hide on finish."
+    },
+    {
+      "path": "fx/shadow.svg",
+      "type": "svg",
+      "width": 128,
+      "height": 32,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Stretchable soft-style flat ground shadow."
+    },
+    {
+      "path": "fx/confetti_purple.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "fx/confetti_mint.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "fx/confetti_coral.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "fx/confetti_yellow.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "fx/confetti_blue.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "fx/confetti_pink.svg",
+      "type": "svg",
+      "width": 16,
+      "height": 20,
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "purpose": "Cosmetic result-screen particle."
+    },
+    {
+      "path": "audio/sfx/ui_hover.wav",
+      "type": "wav",
+      "duration_seconds": 0.065,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Optional hover feedback; play quietly."
+    },
+    {
+      "path": "audio/sfx/ui_click.wav",
+      "type": "wav",
+      "duration_seconds": 0.11,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Button activation."
+    },
+    {
+      "path": "audio/sfx/ui_error.wav",
+      "type": "wav",
+      "duration_seconds": 0.24,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Invalid action or join failure."
+    },
+    {
+      "path": "audio/sfx/player_join.wav",
+      "type": "wav",
+      "duration_seconds": 0.3,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Player joins lobby."
+    },
+    {
+      "path": "audio/sfx/player_leave.wav",
+      "type": "wav",
+      "duration_seconds": 0.25,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Player leaves lobby."
+    },
+    {
+      "path": "audio/sfx/your_turn.wav",
+      "type": "wav",
+      "duration_seconds": 0.48,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Local player becomes active."
+    },
+    {
+      "path": "audio/sfx/countdown_tick.wav",
+      "type": "wav",
+      "duration_seconds": 0.1,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Final countdown second."
+    },
+    {
+      "path": "audio/sfx/crate_drop.wav",
+      "type": "wav",
+      "duration_seconds": 0.32,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Crate falling; optional pitch variation."
+    },
+    {
+      "path": "audio/sfx/crate_land.wav",
+      "type": "wav",
+      "duration_seconds": 0.32,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Successful placement contact."
+    },
+    {
+      "path": "audio/sfx/perfect_place.wav",
+      "type": "wav",
+      "duration_seconds": 0.5,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Optional well-centered placement feedback; not a rule."
+    },
+    {
+      "path": "audio/sfx/wood_collapse.wav",
+      "type": "wav",
+      "duration_seconds": 1.05,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Tower collapse."
+    },
+    {
+      "path": "audio/sfx/debris_hit.wav",
+      "type": "wav",
+      "duration_seconds": 0.18,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Sparse decorative debris impacts."
+    },
+    {
+      "path": "audio/sfx/timeout.wav",
+      "type": "wav",
+      "duration_seconds": 0.5,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Turn timed out."
+    },
+    {
+      "path": "audio/sfx/shift_end.wav",
+      "type": "wav",
+      "duration_seconds": 0.7,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "End of round / shift."
+    },
+    {
+      "path": "audio/sfx/match_win.wav",
+      "type": "wav",
+      "duration_seconds": 1.4,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Local player wins match."
+    },
+    {
+      "path": "audio/sfx/forklift_motor.wav",
+      "type": "wav",
+      "duration_seconds": 0.9,
+      "sample_rate": 44100,
+      "channels": 1,
+      "loop": false,
+      "purpose": "Optional forklift movement one-shot; not seamless loop."
+    }
+  ]
+}
